@@ -1,0 +1,11 @@
+{
+  "fullname": "@nebulario/dll-react",
+  "version": "",
+  "repository": {
+    "url": "github.com:vicjicaman/dll-react.git",
+    "upstream": {}
+  },
+  "labels": {
+    "type": "npm-dll"
+  }
+}
