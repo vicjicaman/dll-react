@@ -54,9 +54,7 @@ module.exports = (env = {}) => {
 
   /****************************************************************************/
   let plugins = [
-    new ManifestPlugin(/*{
-      basePath: "/" + pkgjson.mountpoint + "/"
-    }*/),
+    new ManifestPlugin(),
     new webpack.DllPlugin({
       name: library,
       path: path.join(__dirname, "/dist/[name].json")
