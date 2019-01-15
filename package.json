@@ -38,8 +38,7 @@
     "build:dev": "yarn clean && webpack --config webpack.config.js --env.development ",
     "build:watch:prod": "yarn build:prod --watch",
     "build:watch:dev": "yarn build:dev --watch",
-    "analyze": "webpack --config webpack.config.js --env.analyze",
-    "prepublish": "yarn build:prod"
+    "analyze": "webpack --config webpack.config.js --env.analyze"
   },
   "dependencies": {
     "history": "^4.7.2",
