@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/dll-react",
-  "version": "1.70.0-master-x",
+  "version": "1.70.0-static-dll-lib-dev",
   "mountpoint": "react",
   "description": "Base for modules in node",
   "repository": "github.com:vicjicaman/dll-react.git",
